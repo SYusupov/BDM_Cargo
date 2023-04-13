@@ -1,0 +1,3186 @@
+{
+    "request": {
+     "departing": true,
+     "codeType": {
+      "requested": "IATA",
+      "interpreted": "IATA"
+     },
+     "url": "https://api.flightstats.com/flex/schedules/rest/v1/json/from/BCN/to/MAD/departing/2023/04/09?codeType=IATA",
+     "departureAirport": {
+      "requestedCode": "BCN",
+      "fsCode": "BCN"
+     },
+     "arrivalAirport": {
+      "requestedCode": "MAD",
+      "fsCode": "MAD"
+     },
+     "date": {
+      "year": "2023",
+      "month": "04",
+      "day": "09",
+      "interpreted": "2023-04-09"
+     }
+    },
+    "scheduledFlights": [
+     {
+      "carrierFsCode": "IB",
+      "flightNumber": "3031",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T18:05:00.000",
+      "arrivalTime": "2023-04-09T19:30:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": false,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [
+       {
+        "carrierFsCode": "AV",
+        "flightNumber": "6019",
+        "serviceType": "J",
+        "serviceClasses": [
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 4512501
+       },
+       {
+        "carrierFsCode": "LA",
+        "flightNumber": "1585",
+        "serviceType": "J",
+        "serviceClasses": [
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 10248096
+       },
+       {
+        "carrierFsCode": "OB",
+        "flightNumber": "5007",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "O"
+        ],
+        "referenceCode": 10248095
+       },
+       {
+        "carrierFsCode": "QR",
+        "flightNumber": "6562",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "O"
+        ],
+        "referenceCode": 1093585
+       },
+       {
+        "carrierFsCode": "VY",
+        "flightNumber": "5082",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [],
+        "referenceCode": 10248094
+       }
+      ],
+      "referenceCode": "2310-941637--"
+     },
+     {
+      "carrierFsCode": "QR",
+      "flightNumber": "6562",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T18:05:00.000",
+      "arrivalTime": "2023-04-09T19:30:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "O"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3031",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941637--1093585"
+     },
+     {
+      "carrierFsCode": "AV",
+      "flightNumber": "6019",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T18:05:00.000",
+      "arrivalTime": "2023-04-09T19:30:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3031",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941637--4512501"
+     },
+     {
+      "carrierFsCode": "VY",
+      "flightNumber": "5082",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T18:05:00.000",
+      "arrivalTime": "2023-04-09T19:30:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3031",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941637--10248094"
+     },
+     {
+      "carrierFsCode": "OB",
+      "flightNumber": "5007",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T18:05:00.000",
+      "arrivalTime": "2023-04-09T19:30:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "O"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3031",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941637--10248095"
+     },
+     {
+      "carrierFsCode": "LA",
+      "flightNumber": "1585",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T18:05:00.000",
+      "arrivalTime": "2023-04-09T19:30:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3031",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941637--10248096"
+     },
+     {
+      "carrierFsCode": "IB",
+      "flightNumber": "3021",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T13:30:00.000",
+      "arrivalTime": "2023-04-09T14:55:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": false,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [
+       {
+        "carrierFsCode": "AA",
+        "flightNumber": "8724",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 10247378
+       },
+       {
+        "carrierFsCode": "LA",
+        "flightNumber": "1524",
+        "serviceType": "J",
+        "serviceClasses": [
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 10247376
+       },
+       {
+        "carrierFsCode": "VY",
+        "flightNumber": "5060",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [],
+        "referenceCode": 10247375
+       }
+      ],
+      "referenceCode": "2310-941481--"
+     },
+     {
+      "carrierFsCode": "VY",
+      "flightNumber": "5060",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T13:30:00.000",
+      "arrivalTime": "2023-04-09T14:55:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3021",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941481--10247375"
+     },
+     {
+      "carrierFsCode": "LA",
+      "flightNumber": "1524",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T13:30:00.000",
+      "arrivalTime": "2023-04-09T14:55:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3021",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941481--10247376"
+     },
+     {
+      "carrierFsCode": "AA",
+      "flightNumber": "8724",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T13:30:00.000",
+      "arrivalTime": "2023-04-09T14:55:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3021",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941481--10247378"
+     },
+     {
+      "carrierFsCode": "VY",
+      "flightNumber": "1002",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T07:30:00.000",
+      "arrivalTime": "2023-04-09T08:55:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": false,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [
+       {
+        "carrierFsCode": "IB",
+        "flightNumber": "5000",
+        "serviceType": "J",
+        "serviceClasses": [
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [],
+        "referenceCode": 941849
+       },
+       {
+        "carrierFsCode": "QR",
+        "flightNumber": "3607",
+        "serviceType": "J",
+        "serviceClasses": [
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "O"
+        ],
+        "referenceCode": 1093413
+       }
+      ],
+      "referenceCode": "2310-1176096--"
+     },
+     {
+      "carrierFsCode": "IB",
+      "flightNumber": "5000",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T07:30:00.000",
+      "arrivalTime": "2023-04-09T08:55:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "VY",
+       "flightNumber": "1002",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-1176096--941849"
+     },
+     {
+      "carrierFsCode": "QR",
+      "flightNumber": "3607",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T07:30:00.000",
+      "arrivalTime": "2023-04-09T08:55:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "O"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "VY",
+       "flightNumber": "1002",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-1176096--1093413"
+     },
+     {
+      "carrierFsCode": "UX",
+      "flightNumber": "7708",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T20:30:00.000",
+      "arrivalTime": "2023-04-09T22:00:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "2",
+      "flightEquipmentIataCode": "789",
+      "isCodeshare": false,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [
+       {
+        "carrierFsCode": "AM",
+        "flightNumber": "6809",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 3737919
+       },
+       {
+        "carrierFsCode": "EY",
+        "flightNumber": "4346",
+        "serviceType": "J",
+        "serviceClasses": [
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "E"
+        ],
+        "referenceCode": 10248796
+       },
+       {
+        "carrierFsCode": "KE",
+        "flightNumber": "6654",
+        "serviceType": "J",
+        "serviceClasses": [
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "O"
+        ],
+        "referenceCode": 10248798
+       }
+      ],
+      "referenceCode": "2310-501200--"
+     },
+     {
+      "carrierFsCode": "AM",
+      "flightNumber": "6809",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T20:30:00.000",
+      "arrivalTime": "2023-04-09T22:00:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "2",
+      "flightEquipmentIataCode": "789",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "UX",
+       "flightNumber": "7708",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-501200--3737919"
+     },
+     {
+      "carrierFsCode": "EY",
+      "flightNumber": "4346",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T20:30:00.000",
+      "arrivalTime": "2023-04-09T22:00:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "2",
+      "flightEquipmentIataCode": "789",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "E"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "UX",
+       "flightNumber": "7708",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-501200--10248796"
+     },
+     {
+      "carrierFsCode": "KE",
+      "flightNumber": "6654",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T20:30:00.000",
+      "arrivalTime": "2023-04-09T22:00:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "2",
+      "flightEquipmentIataCode": "789",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "O"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "UX",
+       "flightNumber": "7708",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-501200--10248798"
+     },
+     {
+      "carrierFsCode": "IB",
+      "flightNumber": "3035",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T19:35:00.000",
+      "arrivalTime": "2023-04-09T21:00:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "319",
+      "isCodeshare": false,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [
+       {
+        "carrierFsCode": "AV",
+        "flightNumber": "6172",
+        "serviceType": "J",
+        "serviceClasses": [
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 4512551
+       },
+       {
+        "carrierFsCode": "LA",
+        "flightNumber": "1587",
+        "serviceType": "J",
+        "serviceClasses": [
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 2365577
+       },
+       {
+        "carrierFsCode": "QR",
+        "flightNumber": "6564",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "O"
+        ],
+        "referenceCode": 1094661
+       },
+       {
+        "carrierFsCode": "VY",
+        "flightNumber": "5095",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [],
+        "referenceCode": 10248550
+       }
+      ],
+      "referenceCode": "2310-941729--"
+     },
+     {
+      "carrierFsCode": "QR",
+      "flightNumber": "6564",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T19:35:00.000",
+      "arrivalTime": "2023-04-09T21:00:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "319",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "O"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3035",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941729--1094661"
+     },
+     {
+      "carrierFsCode": "LA",
+      "flightNumber": "1587",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T19:35:00.000",
+      "arrivalTime": "2023-04-09T21:00:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "319",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3035",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941729--2365577"
+     },
+     {
+      "carrierFsCode": "AV",
+      "flightNumber": "6172",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T19:35:00.000",
+      "arrivalTime": "2023-04-09T21:00:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "319",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3035",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941729--4512551"
+     },
+     {
+      "carrierFsCode": "VY",
+      "flightNumber": "5095",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T19:35:00.000",
+      "arrivalTime": "2023-04-09T21:00:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "319",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3035",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941729--10248550"
+     },
+     {
+      "carrierFsCode": "IB",
+      "flightNumber": "3025",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T14:30:00.000",
+      "arrivalTime": "2023-04-09T15:55:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "319",
+      "isCodeshare": false,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [
+       {
+        "carrierFsCode": "AT",
+        "flightNumber": "5336",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [],
+        "referenceCode": 4499377
+       },
+       {
+        "carrierFsCode": "LA",
+        "flightNumber": "1557",
+        "serviceType": "J",
+        "serviceClasses": [
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 2365505
+       },
+       {
+        "carrierFsCode": "OB",
+        "flightNumber": "5005",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "O"
+        ],
+        "referenceCode": 10247761
+       },
+       {
+        "carrierFsCode": "QR",
+        "flightNumber": "6557",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "O"
+        ],
+        "referenceCode": 1093530
+       },
+       {
+        "carrierFsCode": "VY",
+        "flightNumber": "5062",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [],
+        "referenceCode": 10247760
+       }
+      ],
+      "referenceCode": "2310-941556--"
+     },
+     {
+      "carrierFsCode": "QR",
+      "flightNumber": "6557",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T14:30:00.000",
+      "arrivalTime": "2023-04-09T15:55:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "319",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "O"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3025",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941556--1093530"
+     },
+     {
+      "carrierFsCode": "LA",
+      "flightNumber": "1557",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T14:30:00.000",
+      "arrivalTime": "2023-04-09T15:55:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "319",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3025",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941556--2365505"
+     },
+     {
+      "carrierFsCode": "AT",
+      "flightNumber": "5336",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T14:30:00.000",
+      "arrivalTime": "2023-04-09T15:55:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "319",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3025",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941556--4499377"
+     },
+     {
+      "carrierFsCode": "VY",
+      "flightNumber": "5062",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T14:30:00.000",
+      "arrivalTime": "2023-04-09T15:55:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "319",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3025",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941556--10247760"
+     },
+     {
+      "carrierFsCode": "OB",
+      "flightNumber": "5005",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T14:30:00.000",
+      "arrivalTime": "2023-04-09T15:55:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "319",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "O"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3025",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941556--10247761"
+     },
+     {
+      "carrierFsCode": "IB",
+      "flightNumber": "3041",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T21:05:00.000",
+      "arrivalTime": "2023-04-09T22:30:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "321",
+      "isCodeshare": false,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [
+       {
+        "carrierFsCode": "AV",
+        "flightNumber": "6173",
+        "serviceType": "J",
+        "serviceClasses": [
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 4512593
+       },
+       {
+        "carrierFsCode": "AY",
+        "flightNumber": "5576",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 208044
+       },
+       {
+        "carrierFsCode": "LA",
+        "flightNumber": "1589",
+        "serviceType": "J",
+        "serviceClasses": [
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 10248876
+       },
+       {
+        "carrierFsCode": "VY",
+        "flightNumber": "5100",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [],
+        "referenceCode": 10248875
+       }
+      ],
+      "referenceCode": "2310-941806--"
+     },
+     {
+      "carrierFsCode": "AY",
+      "flightNumber": "5576",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T21:05:00.000",
+      "arrivalTime": "2023-04-09T22:30:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "321",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3041",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941806--208044"
+     },
+     {
+      "carrierFsCode": "AV",
+      "flightNumber": "6173",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T21:05:00.000",
+      "arrivalTime": "2023-04-09T22:30:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "321",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3041",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941806--4512593"
+     },
+     {
+      "carrierFsCode": "VY",
+      "flightNumber": "5100",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T21:05:00.000",
+      "arrivalTime": "2023-04-09T22:30:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "321",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3041",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941806--10248875"
+     },
+     {
+      "carrierFsCode": "LA",
+      "flightNumber": "1589",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T21:05:00.000",
+      "arrivalTime": "2023-04-09T22:30:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "321",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3041",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941806--10248876"
+     },
+     {
+      "carrierFsCode": "IB",
+      "flightNumber": "3003",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T07:00:00.000",
+      "arrivalTime": "2023-04-09T08:25:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": false,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [
+       {
+        "carrierFsCode": "AA",
+        "flightNumber": "8505",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 10245392
+       },
+       {
+        "carrierFsCode": "AT",
+        "flightNumber": "5323",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [],
+        "referenceCode": 4499221
+       },
+       {
+        "carrierFsCode": "AV",
+        "flightNumber": "6005",
+        "serviceType": "J",
+        "serviceClasses": [
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 4512435
+       },
+       {
+        "carrierFsCode": "AY",
+        "flightNumber": "5572",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 207986
+       },
+       {
+        "carrierFsCode": "CX",
+        "flightNumber": "1828",
+        "serviceType": "J",
+        "serviceClasses": [
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 10245391
+       },
+       {
+        "carrierFsCode": "QR",
+        "flightNumber": "5085",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "O"
+        ],
+        "referenceCode": 1093420
+       },
+       {
+        "carrierFsCode": "VY",
+        "flightNumber": "5008",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [],
+        "referenceCode": 10245390
+       }
+      ],
+      "referenceCode": "2310-941130--"
+     },
+     {
+      "carrierFsCode": "AY",
+      "flightNumber": "5572",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T07:00:00.000",
+      "arrivalTime": "2023-04-09T08:25:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3003",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941130--207986"
+     },
+     {
+      "carrierFsCode": "QR",
+      "flightNumber": "5085",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T07:00:00.000",
+      "arrivalTime": "2023-04-09T08:25:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "O"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3003",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941130--1093420"
+     },
+     {
+      "carrierFsCode": "AT",
+      "flightNumber": "5323",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T07:00:00.000",
+      "arrivalTime": "2023-04-09T08:25:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3003",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941130--4499221"
+     },
+     {
+      "carrierFsCode": "AV",
+      "flightNumber": "6005",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T07:00:00.000",
+      "arrivalTime": "2023-04-09T08:25:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3003",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941130--4512435"
+     },
+     {
+      "carrierFsCode": "VY",
+      "flightNumber": "5008",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T07:00:00.000",
+      "arrivalTime": "2023-04-09T08:25:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3003",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941130--10245390"
+     },
+     {
+      "carrierFsCode": "CX",
+      "flightNumber": "1828",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T07:00:00.000",
+      "arrivalTime": "2023-04-09T08:25:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3003",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941130--10245391"
+     },
+     {
+      "carrierFsCode": "AA",
+      "flightNumber": "8505",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T07:00:00.000",
+      "arrivalTime": "2023-04-09T08:25:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3003",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941130--10245392"
+     },
+     {
+      "carrierFsCode": "UX",
+      "flightNumber": "7706",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T11:50:00.000",
+      "arrivalTime": "2023-04-09T13:20:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "2",
+      "flightEquipmentIataCode": "789",
+      "isCodeshare": false,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [
+       {
+        "carrierFsCode": "AM",
+        "flightNumber": "6810",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 3737977
+       },
+       {
+        "carrierFsCode": "AR",
+        "flightNumber": "7365",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "D"
+        ],
+        "referenceCode": 10247044
+       },
+       {
+        "carrierFsCode": "DL",
+        "flightNumber": "6767",
+        "serviceType": "J",
+        "serviceClasses": [
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 10247046
+       },
+       {
+        "carrierFsCode": "EY",
+        "flightNumber": "4389",
+        "serviceType": "J",
+        "serviceClasses": [
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "E"
+        ],
+        "referenceCode": 10247045
+       },
+       {
+        "carrierFsCode": "JU",
+        "flightNumber": "7451",
+        "serviceType": "J",
+        "serviceClasses": [
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 1571608
+       },
+       {
+        "carrierFsCode": "SV",
+        "flightNumber": "6178",
+        "serviceType": "J",
+        "serviceClasses": [
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [],
+        "referenceCode": 2957864
+       }
+      ],
+      "referenceCode": "2310-501143--"
+     },
+     {
+      "carrierFsCode": "JU",
+      "flightNumber": "7451",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T11:50:00.000",
+      "arrivalTime": "2023-04-09T13:20:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "2",
+      "flightEquipmentIataCode": "789",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "UX",
+       "flightNumber": "7706",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-501143--1571608"
+     },
+     {
+      "carrierFsCode": "SV",
+      "flightNumber": "6178",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T11:50:00.000",
+      "arrivalTime": "2023-04-09T13:20:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "2",
+      "flightEquipmentIataCode": "789",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "UX",
+       "flightNumber": "7706",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-501143--2957864"
+     },
+     {
+      "carrierFsCode": "AM",
+      "flightNumber": "6810",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T11:50:00.000",
+      "arrivalTime": "2023-04-09T13:20:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "2",
+      "flightEquipmentIataCode": "789",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "UX",
+       "flightNumber": "7706",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-501143--3737977"
+     },
+     {
+      "carrierFsCode": "AR",
+      "flightNumber": "7365",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T11:50:00.000",
+      "arrivalTime": "2023-04-09T13:20:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "2",
+      "flightEquipmentIataCode": "789",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "D"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "UX",
+       "flightNumber": "7706",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-501143--10247044"
+     },
+     {
+      "carrierFsCode": "EY",
+      "flightNumber": "4389",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T11:50:00.000",
+      "arrivalTime": "2023-04-09T13:20:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "2",
+      "flightEquipmentIataCode": "789",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "E"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "UX",
+       "flightNumber": "7706",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-501143--10247045"
+     },
+     {
+      "carrierFsCode": "DL",
+      "flightNumber": "6767",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T11:50:00.000",
+      "arrivalTime": "2023-04-09T13:20:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "2",
+      "flightEquipmentIataCode": "789",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "UX",
+       "flightNumber": "7706",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-501143--10247046"
+     },
+     {
+      "carrierFsCode": "VY",
+      "flightNumber": "1004",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T11:35:00.000",
+      "arrivalTime": "2023-04-09T13:05:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": false,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [
+       {
+        "carrierFsCode": "IB",
+        "flightNumber": "5002",
+        "serviceType": "J",
+        "serviceClasses": [
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [],
+        "referenceCode": 10247023
+       },
+       {
+        "carrierFsCode": "QR",
+        "flightNumber": "3500",
+        "serviceType": "J",
+        "serviceClasses": [
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "O"
+        ],
+        "referenceCode": 10247022
+       }
+      ],
+      "referenceCode": "2310-1176104--"
+     },
+     {
+      "carrierFsCode": "QR",
+      "flightNumber": "3500",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T11:35:00.000",
+      "arrivalTime": "2023-04-09T13:05:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "O"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "VY",
+       "flightNumber": "1004",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-1176104--10247022"
+     },
+     {
+      "carrierFsCode": "IB",
+      "flightNumber": "5002",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T11:35:00.000",
+      "arrivalTime": "2023-04-09T13:05:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "VY",
+       "flightNumber": "1004",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-1176104--10247023"
+     },
+     {
+      "carrierFsCode": "VY",
+      "flightNumber": "1006",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T16:25:00.000",
+      "arrivalTime": "2023-04-09T17:50:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": false,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [
+       {
+        "carrierFsCode": "IB",
+        "flightNumber": "5004",
+        "serviceType": "J",
+        "serviceClasses": [
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [],
+        "referenceCode": 10248040
+       },
+       {
+        "carrierFsCode": "QR",
+        "flightNumber": "3605",
+        "serviceType": "J",
+        "serviceClasses": [
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "O"
+        ],
+        "referenceCode": 10248042
+       }
+      ],
+      "referenceCode": "2310-1176115--"
+     },
+     {
+      "carrierFsCode": "IB",
+      "flightNumber": "5004",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T16:25:00.000",
+      "arrivalTime": "2023-04-09T17:50:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "VY",
+       "flightNumber": "1006",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-1176115--10248040"
+     },
+     {
+      "carrierFsCode": "QR",
+      "flightNumber": "3605",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T16:25:00.000",
+      "arrivalTime": "2023-04-09T17:50:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "O"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "VY",
+       "flightNumber": "1006",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-1176115--10248042"
+     },
+     {
+      "carrierFsCode": "VY",
+      "flightNumber": "1008",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T20:30:00.000",
+      "arrivalTime": "2023-04-09T21:55:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": false,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [
+       {
+        "carrierFsCode": "IB",
+        "flightNumber": "5006",
+        "serviceType": "J",
+        "serviceClasses": [
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [],
+        "referenceCode": 10248782
+       },
+       {
+        "carrierFsCode": "QR",
+        "flightNumber": "3505",
+        "serviceType": "J",
+        "serviceClasses": [
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "O"
+        ],
+        "referenceCode": 10248779
+       }
+      ],
+      "referenceCode": "2310-1176129--"
+     },
+     {
+      "carrierFsCode": "QR",
+      "flightNumber": "3505",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T20:30:00.000",
+      "arrivalTime": "2023-04-09T21:55:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "O"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "VY",
+       "flightNumber": "1008",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-1176129--10248779"
+     },
+     {
+      "carrierFsCode": "IB",
+      "flightNumber": "5006",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T20:30:00.000",
+      "arrivalTime": "2023-04-09T21:55:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "VY",
+       "flightNumber": "1008",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-1176129--10248782"
+     },
+     {
+      "carrierFsCode": "IB",
+      "flightNumber": "3009",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T09:05:00.000",
+      "arrivalTime": "2023-04-09T10:30:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": false,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [
+       {
+        "carrierFsCode": "AA",
+        "flightNumber": "8777",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 10245744
+       },
+       {
+        "carrierFsCode": "CX",
+        "flightNumber": "1826",
+        "serviceType": "J",
+        "serviceClasses": [
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 10245745
+       },
+       {
+        "carrierFsCode": "VY",
+        "flightNumber": "5025",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [],
+        "referenceCode": 10245743
+       }
+      ],
+      "referenceCode": "2310-941196--"
+     },
+     {
+      "carrierFsCode": "VY",
+      "flightNumber": "5025",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T09:05:00.000",
+      "arrivalTime": "2023-04-09T10:30:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3009",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941196--10245743"
+     },
+     {
+      "carrierFsCode": "AA",
+      "flightNumber": "8777",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T09:05:00.000",
+      "arrivalTime": "2023-04-09T10:30:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3009",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941196--10245744"
+     },
+     {
+      "carrierFsCode": "CX",
+      "flightNumber": "1826",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T09:05:00.000",
+      "arrivalTime": "2023-04-09T10:30:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "32A",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3009",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941196--10245745"
+     },
+     {
+      "carrierFsCode": "IB",
+      "flightNumber": "3017",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T12:40:00.000",
+      "arrivalTime": "2023-04-09T14:05:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": false,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [
+       {
+        "carrierFsCode": "AA",
+        "flightNumber": "8763",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 10247218
+       },
+       {
+        "carrierFsCode": "LA",
+        "flightNumber": "1625",
+        "serviceType": "J",
+        "serviceClasses": [
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "G"
+        ],
+        "referenceCode": 10247220
+       },
+       {
+        "carrierFsCode": "QR",
+        "flightNumber": "5376",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [
+         "O"
+        ],
+        "referenceCode": 1093495
+       },
+       {
+        "carrierFsCode": "VY",
+        "flightNumber": "5117",
+        "serviceType": "J",
+        "serviceClasses": [
+         "R",
+         "F",
+         "J",
+         "Y"
+        ],
+        "trafficRestrictions": [],
+        "referenceCode": 10247219
+       }
+      ],
+      "referenceCode": "2310-941440--"
+     },
+     {
+      "carrierFsCode": "QR",
+      "flightNumber": "5376",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T12:40:00.000",
+      "arrivalTime": "2023-04-09T14:05:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "O"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3017",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941440--1093495"
+     },
+     {
+      "carrierFsCode": "AA",
+      "flightNumber": "8763",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T12:40:00.000",
+      "arrivalTime": "2023-04-09T14:05:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3017",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941440--10247218"
+     },
+     {
+      "carrierFsCode": "VY",
+      "flightNumber": "5117",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T12:40:00.000",
+      "arrivalTime": "2023-04-09T14:05:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "R",
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3017",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941440--10247219"
+     },
+     {
+      "carrierFsCode": "LA",
+      "flightNumber": "1625",
+      "departureAirportFsCode": "BCN",
+      "arrivalAirportFsCode": "MAD",
+      "departureTime": "2023-04-09T12:40:00.000",
+      "arrivalTime": "2023-04-09T14:05:00.000",
+      "stops": 0,
+      "departureTerminal": "1",
+      "arrivalTerminal": "4",
+      "flightEquipmentIataCode": "320",
+      "isCodeshare": true,
+      "isWetlease": false,
+      "serviceType": "J",
+      "serviceClasses": [
+       "F",
+       "J",
+       "Y"
+      ],
+      "trafficRestrictions": [
+       "G"
+      ],
+      "codeshares": [],
+      "operator": {
+       "carrierFsCode": "IB",
+       "flightNumber": "3017",
+       "serviceType": "J",
+       "serviceClasses": [
+        "R",
+        "F",
+        "J",
+        "Y"
+       ],
+       "trafficRestrictions": []
+      },
+      "referenceCode": "2310-941440--10247220"
+     }
+    ],
+    "appendix": {
+     "airlines": [
+      {
+       "fs": "AA",
+       "iata": "AA",
+       "icao": "AAL",
+       "name": "American Airlines",
+       "active": true
+      },
+      {
+       "fs": "QR",
+       "iata": "QR",
+       "icao": "QTR",
+       "name": "Qatar Airways",
+       "active": true
+      },
+      {
+       "fs": "VY",
+       "iata": "VY",
+       "icao": "VLG",
+       "name": "Vueling",
+       "active": true
+      },
+      {
+       "fs": "UX",
+       "iata": "UX",
+       "icao": "AEA",
+       "name": "Air Europa",
+       "active": true
+      },
+      {
+       "fs": "SV",
+       "iata": "SV",
+       "icao": "SVA",
+       "name": "Saudia",
+       "active": true
+      },
+      {
+       "fs": "DL",
+       "iata": "DL",
+       "icao": "DAL",
+       "name": "Delta Air Lines",
+       "active": true
+      },
+      {
+       "fs": "JU",
+       "iata": "JU",
+       "icao": "ASL",
+       "name": "Air Serbia",
+       "active": true
+      },
+      {
+       "fs": "AM",
+       "iata": "AM",
+       "icao": "AMX",
+       "name": "Aeromexico",
+       "active": true
+      },
+      {
+       "fs": "AR",
+       "iata": "AR",
+       "icao": "ARG",
+       "name": "Aerolineas Argentinas",
+       "active": true
+      },
+      {
+       "fs": "OB",
+       "iata": "OB",
+       "icao": "BOV",
+       "name": "BoA",
+       "active": true
+      },
+      {
+       "fs": "AT",
+       "iata": "AT",
+       "icao": "RAM",
+       "name": "Royal Air Maroc",
+       "active": true
+      },
+      {
+       "fs": "EY",
+       "iata": "EY",
+       "icao": "ETD",
+       "name": "Etihad Airways",
+       "active": true
+      },
+      {
+       "fs": "AV",
+       "iata": "AV",
+       "icao": "AVA",
+       "name": "SA AVIANCA",
+       "active": true
+      },
+      {
+       "fs": "LA",
+       "iata": "LA",
+       "icao": "LAN",
+       "name": "LATAM Airlines",
+       "active": true
+      },
+      {
+       "fs": "CX",
+       "iata": "CX",
+       "icao": "CPA",
+       "name": "Cathay Pacific",
+       "active": true
+      },
+      {
+       "fs": "AY",
+       "iata": "AY",
+       "icao": "FIN",
+       "name": "Finnair",
+       "active": true
+      },
+      {
+       "fs": "IB",
+       "iata": "IB",
+       "icao": "IBE",
+       "name": "Iberia",
+       "active": true
+      },
+      {
+       "fs": "KE",
+       "iata": "KE",
+       "icao": "KAL",
+       "name": "Korean Air",
+       "active": true
+      }
+     ],
+     "airports": [
+      {
+       "fs": "MAD",
+       "iata": "MAD",
+       "icao": "LEMD",
+       "faa": "",
+       "name": "Adolfo Suarez Madrid-Barajas Airport",
+       "city": "Madrid",
+       "cityCode": "MAD",
+       "stateCode": "SP",
+       "countryCode": "ES",
+       "countryName": "Spain and Canary Islands",
+       "regionName": "Europe",
+       "timeZoneRegionName": "Europe/Madrid",
+       "weatherZone": "",
+       "localTime": "2023-04-09T18:54:59.334",
+       "utcOffsetHours": 2,
+       "latitude": 40.49027,
+       "longitude": -3.564479,
+       "elevationFeet": 1953,
+       "classification": 1,
+       "active": true
+      },
+      {
+       "fs": "BCN",
+       "iata": "BCN",
+       "icao": "LEBL",
+       "faa": "",
+       "name": "Barcelona-El Prat Airport",
+       "city": "Barcelona",
+       "cityCode": "BCN",
+       "stateCode": "SP",
+       "countryCode": "ES",
+       "countryName": "Spain and Canary Islands",
+       "regionName": "Europe",
+       "timeZoneRegionName": "Europe/Madrid",
+       "weatherZone": "",
+       "localTime": "2023-04-09T18:54:59.334",
+       "utcOffsetHours": 2,
+       "latitude": 41.303027,
+       "longitude": 2.07593,
+       "elevationFeet": 13,
+       "classification": 1,
+       "active": true
+      }
+     ],
+     "equipments": [
+      {
+       "iata": "320",
+       "name": "Airbus A320",
+       "turboProp": false,
+       "jet": true,
+       "widebody": false,
+       "regional": false
+      },
+      {
+       "iata": "32A",
+       "name": "Airbus A320 (sharklets)",
+       "turboProp": false,
+       "jet": true,
+       "widebody": false,
+       "regional": false
+      },
+      {
+       "iata": "321",
+       "name": "Airbus A321",
+       "turboProp": false,
+       "jet": true,
+       "widebody": false,
+       "regional": false
+      },
+      {
+       "iata": "789",
+       "name": "Boeing 787-9",
+       "turboProp": false,
+       "jet": true,
+       "widebody": true,
+       "regional": false
+      },
+      {
+       "iata": "319",
+       "name": "Airbus A319",
+       "turboProp": false,
+       "jet": true,
+       "widebody": false,
+       "regional": false
+      }
+     ]
+    }
+   }
