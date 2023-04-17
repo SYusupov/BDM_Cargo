@@ -1,0 +1,41 @@
+,streetName,streetNumber,buildingNumber,postalCode,city,provence,country
+0,Calle de la Cruz,19,2B,28012,Madrid,Madrid,Spain
+1,Carrer de la Mar,9,2C,08003,Barcelona,Barcelona,Spain
+2,Avenida de las Ciencias,6,4D,41020,Sevilla,Sevilla,Spain
+3,Calle Almirante,8,1C,46003,Valencia,Valencia,Spain
+4,Plaza del Castillo,10,3A,31001,Pamplona,Navarra,Spain
+5,Paseo de la Castellana,23,7D,28046,Madrid,Madrid,Spain
+6,Calle del Sol,7,1B,18001,Granada,Granada,Spain
+7,Rúa de San Roque,15,1D,15001,A Coruña,A Coruña,Spain
+8,Calle de las Begonias,5,2A,29004,Málaga,Málaga,Spain
+9,Avenida de la Constitución,15,3B,41001,Sevilla,Sevilla,Spain
+10,Carrer del Pi,11,3C,08002,Barcelona,Barcelona,Spain
+11,Calle de los Reyes Católicos,9,1D,41001,Sevilla,Sevilla,Spain
+12,Plaza del Ayuntamiento,5,2B,46002,Valencia,Valencia,Spain
+13,Calle de Alcalá,46,6C,28014,Madrid,Madrid,Spain
+14,Rúa de San Francisco,9,2C,15704,Santiago de Compostela,A Coruña,Spain
+15,Calle de la Princesa,28,2D,28008,Madrid,Madrid,Spain
+16,Carrer de la Portaferrissa,10,4A,08002,Barcelona,Barcelona,Spain
+17,Plaza de la Merced,10,4A,29012,Málaga,Málaga,Spain
+18,Avenida de los Andes,10,1D,29639,Benalmádena,Málaga,Spain
+19,Calle de la Reina,12,2C,46011,Valencia,Valencia,Spain
+20,Carrer de la Diputació,12,1A,08015,Barcelona,Barcelona,Spain
+21,Plaza Mayor,15,2A,37001,Salamanca,Salamanca,Spain
+22,Calle del Arenal,2,1C,28013,Madrid,Madrid,Spain
+23,Avenida de los Boliches,3,5D,29640,Fuengirola,Málaga,Spain
+24,Rúa de San Vicente,28,1C,46002,Valencia,Valencia,Spain
+25,Calle Serrano,42,6C,28001,Madrid,Madrid,Spain
+26,Plaza de Cibeles,1,3B,28014,Madrid,Madrid,Spain
+27,Avinguda Diagonal,6,3B,08019,Barcelona,Barcelona,Spain
+28,Calle de la Paz,2,1A,46003,Valencia,Valencia,Spain
+29,Plaza Mayor,22,3C,28012,Madrid,Madrid,Spain
+30,Carrer de l'Argenteria,5,2B,08003,Barcelona,Barcelona,Spain
+31,Calle de las Herrerías,3,1B,33003,Oviedo,Asturias,Spain
+32,Calle de la Marina,14,2C,07013,Palma de Mallorca,Balearic Islands,Spain
+33,Carrer del Comte Borrell,21,4B,08015,Barcelona,Barcelona,Spain
+34,Calle de la Luna,5,3A,30001,Murcia,Murcia,Spain
+35,Calle de la Palma,11,1D,28004,Madrid,Madrid,Spain
+36,Rúa de Santo Domingo,8,2B,15702,Santiago de Compostela,A Coruña,Spain
+37,Avenida de la Libertad,20,5A,29016,Málaga,Málaga,Spain
+38,Carrer de Pelai,12,2C,08001,Barcelona,Barcelona,Spain
+39,Calle del Arco,5,1B,14003,Córdoba,Córdoba,Spain
