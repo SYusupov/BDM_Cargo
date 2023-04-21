@@ -14,7 +14,6 @@ default_args = {
     'retries':1,
     "retry_delay":dt.timedelta(minutes = 5)}
 
-#Define the DAG which runs daily
 dag = DAG("dhl_data_loading_dag",
           description = "Loading DHL data to the temporary landing",
           default_args = default_args,
@@ -52,15 +51,15 @@ def dhl_raw_data_loader_whole():
     if DP != 0:
         DP_df = pd.read_csv(io.StringIO(DP.decode('utf-8')),sep=" ",names = ["Peso(en kg)", "A", "B","C","D"],skiprows=[0])
         print(DP_df.head(),"\n")
-        DP_df.to_csv("Domestic_Price.csv",index = False,encoding = "utf_8_sig")
+        DP_df.to_csv("../dhl_service_fee/get_raw_data/Domestic_Price.csv",index = False,encoding = "utf_8_sig")
     if DZ != 0:
         DZ_df = pd.read_csv(io.StringIO(DZ.decode('utf-8')),sep=",")
         print(DZ_df.head(),"\n")
-        DZ_df.to_csv("Domestic_Zona.csv",index = False,encoding = "utf_8_sig")
+        DZ_df.to_csv("../dhl_service_fee/get_raw_data/Domestic_Zona.csv",index = False,encoding = "utf_8_sig")
     if ZM != 0:
         ZM_df = pd.read_csv(io.StringIO(ZM.decode('utf-8')),sep = ',')
         print(ZM_df.head(),"\n")
-        ZM_df.to_csv("Zona_Matrix.csv",index = False,encoding = "utf_8_sig")
+        ZM_df.to_csv("../dhl_service_fee/get_raw_data/Zona_Matrix.csv",index = False,encoding = "utf_8_sig")
     
   
 dhl_data_loader_task = PythonOperator(
