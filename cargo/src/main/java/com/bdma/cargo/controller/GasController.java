@@ -56,15 +56,11 @@ public class GasController {
             JSONArray gasObject = jsonObject.getJSONArray("results");
             for (int i = 0; i < gasObject.length(); i++) {
                 JSONObject ss = gasObject.getJSONObject(i);
-                BigDecimal lpg = new BigDecimal (-1), diesel = new BigDecimal (-1), gasoline = new BigDecimal (-1);
-                lpg = getPrice(ss, lpg, "lpg");
-                diesel = getPrice(ss, diesel, "diesel");
-                gasoline = getPrice(ss, gasoline, "gasoline");
                 writer.write(
                         new GasModel(ss.getString("currency"),
-                                lpg,
-                                diesel,
-                                gasoline,
+                                getPrice(ss, "lpg"),
+                                getPrice(ss, "diesel"),
+                                getPrice(ss, "gasoline"),
                                 ss.getString("country"))
                 );
             }
@@ -101,15 +97,11 @@ public class GasController {
             JSONArray gasObject = jsonObject.getJSONArray("results");
             for (int i = 0; i < gasObject.length(); i++) {
                 JSONObject ss = gasObject.getJSONObject(i);
-                BigDecimal lpg = new BigDecimal (-1), diesel = new BigDecimal (-1), gasoline = new BigDecimal (-1);
-                lpg = getPrice(ss, lpg, "lpg");
-                diesel = getPrice(ss, diesel, "diesel");
-                gasoline = getPrice(ss, gasoline, "gasoline");
                 writer.write(
                         new GasModel(ss.getString("currency"),
-                                lpg,
-                                diesel,
-                                gasoline,
+                                getPrice(ss, "lpg"),
+                                getPrice(ss, "diesel"),
+                                getPrice(ss, "gasoline"),
                                 ss.getString("country"))
                 );
             }
@@ -121,7 +113,8 @@ public class GasController {
 
     }
 
-    private BigDecimal getPrice(JSONObject ss, BigDecimal gasolineType, String gasolineName) {
+    private BigDecimal getPrice(JSONObject ss, String gasolineName) {
+        BigDecimal gasolineType = BigDecimal.ZERO;
         if (!ss.getString(gasolineName).equals("") && !ss.getString(gasolineName).equals("-") && ss.getString(gasolineName) != null)
             gasolineType = new BigDecimal(ss.getString(gasolineName).replace(',','.'));
         return gasolineType;
