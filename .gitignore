@@ -1,3 +1,5 @@
+cargo/src/main/resources/application.properties
+
 **/target/
 
 #Eclipse
