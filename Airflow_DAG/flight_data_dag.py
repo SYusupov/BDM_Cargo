@@ -40,7 +40,7 @@ def get_flight_data():
 
         req_params = ['flightNumber', 'departureAirportFsCode', 'arrivalAirportFsCode', 'departureTime', 'arrivalTime', 'stops', 'departureTerminal', 'arrivalTerminal']
         timestamp = int(time.time())
-        with open(f'logs/scheduledFlights2_{timestamp}.csv', 'a', newline='') as file:
+        with open(f'logs/scheduledFlights_{cur_date}_{timestamp}.csv', 'a', newline='') as file:
             writer = csv.writer(file)
             # writer.writerow(req_params)
             for idx in range(len(output['scheduledFlights'])):
