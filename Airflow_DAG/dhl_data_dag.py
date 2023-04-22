@@ -15,7 +15,6 @@ default_args = {
     'retries':1,
     "retry_delay":dt.timedelta(minutes = 5)}
 
-#Define the DAG which runs daily
 dag = DAG("dhl_data_loading_dag",
           description = "Loading DHL data to the temporary landing",
           default_args = default_args,
