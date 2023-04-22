@@ -1,6 +1,7 @@
 import pandas as pd
 import requests
 import io
+import time
 
 from airflow import DAG
 import datetime as dt
@@ -47,19 +48,20 @@ def dhl_raw_data_loader_whole():
     DP = dhl_raw_data_loader(Domestic_Price_url)
     DZ = dhl_raw_data_loader(Domestic_Zona_url)
     ZM = dhl_raw_data_loader(Zona_Matrix_url)
-    
+
+    timestamp = int(time.time())
     if DP != 0:
         DP_df = pd.read_csv(io.StringIO(DP.decode('utf-8')),sep=" ",names = ["Peso(en kg)", "A", "B","C","D"],skiprows=[0])
         print(DP_df.head(),"\n")
-        DP_df.to_csv("../dhl_service_fee/get_raw_data/Domestic_Price.csv",index = False,encoding = "utf_8_sig")
+        DP_df.to_csv(f"logs/Domestic_Price_{timestamp}.csv",index = False,encoding = "utf_8_sig")
     if DZ != 0:
         DZ_df = pd.read_csv(io.StringIO(DZ.decode('utf-8')),sep=",")
         print(DZ_df.head(),"\n")
-        DZ_df.to_csv("../dhl_service_fee/get_raw_data/Domestic_Zona.csv",index = False,encoding = "utf_8_sig")
+        DZ_df.to_csv(f"logs/Domestic_Zona_{timestamp}.csv",index = False,encoding = "utf_8_sig")
     if ZM != 0:
         ZM_df = pd.read_csv(io.StringIO(ZM.decode('utf-8')),sep = ',')
         print(ZM_df.head(),"\n")
-        ZM_df.to_csv("../dhl_service_fee/get_raw_data/Zona_Matrix.csv",index = False,encoding = "utf_8_sig")
+        ZM_df.to_csv(f"logs/Zona_Matrix_{timestamp}.csv",index = False,encoding = "utf_8_sig")
     
   
 dhl_data_loader_task = PythonOperator(
