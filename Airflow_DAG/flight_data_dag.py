@@ -2,6 +2,7 @@ import requests
 from datetime import date, timedelta, datetime
 import json
 import csv
+import time
 
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
@@ -38,7 +39,8 @@ def get_flight_data():
         # json.dump(output, out)
 
         req_params = ['flightNumber', 'departureAirportFsCode', 'arrivalAirportFsCode', 'departureTime', 'arrivalTime', 'stops', 'departureTerminal', 'arrivalTerminal']
-        with open('logs/scheduledFlights2.csv', 'a', newline='') as file:
+        timestamp = int(time.time())
+        with open(f'logs/scheduledFlights2_{timestamp}.csv', 'a', newline='') as file:
             writer = csv.writer(file)
             # writer.writerow(req_params)
             for idx in range(len(output['scheduledFlights'])):
