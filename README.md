@@ -1,6 +1,11 @@
 # BDM_Cargo
 A Collaborative Project for Big Data Management
 
+Abd Alrhman Abu Sbeit
+Tianheng Zhou
+You Xu
+Sayyor Yusupov
+
 ## Getting Started
 Follow the instructions below to set up the Java application and Airflow DAGs for this project.
 
