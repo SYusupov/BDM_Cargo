@@ -1,6 +1,11 @@
 # BDM_Cargo
 A Collaborative Project for Big Data Management
 
+- Abd Alrhman Abu Sbeit
+- Tianheng Zhou
+- You Xu
+- Sayyor Yusupov
+
 ## Getting Started
 Follow the instructions below to set up the Java application and Airflow DAGs for this project.
 
@@ -31,3 +36,8 @@ Follow the instructions below to set up the Java application and Airflow DAGs fo
     - Restart your Airflow instance
     - Open your browser and go to 'http://localhost:8080/'
     - Activate all the available DAGs
+
+### HDFS Setup
+1. Install Hadoop in standalone mode (instructions for Ubuntu 20.04: https://www.digitalocean.com/community/tutorials/how-to-install-hadoop-in-stand-alone-mode-on-ubuntu-20-04), configure Hadoop (https://medium.com/@festusmorumbasi/installing-hadoop-on-ubuntu-20-04-4610b6e0391e)
+2. Install the latest version of PyArrow library as explained here: https://arrow.apache.org/docs/python/install.html#using-pip
+3. Run each python file in /HDFS
