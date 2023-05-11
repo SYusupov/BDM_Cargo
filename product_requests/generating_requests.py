@@ -21,9 +21,11 @@ def main(products_csv, cities):
     requests['toCity'] = [comb[1] for comb in combs]
 
     requests['product_id'] = [random.choice(product_ids) for _ in range(20)]
-    requests.to_csv('requests.csv')
+
+    requests = requests.loc[:, ~requests.columns.str.contains('^Unnamed')]
+    requests.to_csv('requests.csv', index=False)
 
 if __name__ == "__main__":
     products_csv = "products.csv"
-    cities = ["Madrid", "Alacant / Alicante", "Málaga", "Palma"]
+    cities = ["Madrid", "Barcelona", "Málaga", "Palma"]
     main(products_csv, cities)
